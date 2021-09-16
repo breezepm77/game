@@ -9,9 +9,13 @@ function jump () {
     if(dino.classList != "jump") {
         dino.classList.add("jump")
     }
-    setTimeout( function() {
+    dino.addEventListener = ('click' function (e) {
+     e.preventdefault()
+        
+        setTimeout( function() {
         dino.classList.remove("jump")
-    }, click)
+    }, 300)
+    })
 }
 
 let isAlive = setInterval ( function() {

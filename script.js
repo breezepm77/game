@@ -11,7 +11,7 @@ function jump () {
     }
     setTimeout( function() {
         dino.classList.remove("jump")
-    }, 300)
+    }, 500)
 }
 
 let isAlive = setInterval ( function() {

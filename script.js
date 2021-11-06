@@ -11,14 +11,14 @@ function jump () {
     }
         setTimeout( function() {
         dino.classList.remove("jump")
-    }, 300)
+    }, 1000)
 }
 
 let isAlive = setInterval ( function() {
     let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
-    if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
+    if(cactusLeft < 36 && cactusLeft > 0 && dinoTop >= 150) {
      alert("Oyin tugadi : Yutqizdingiz!!")
     }
-}, 10)
+}, 5)

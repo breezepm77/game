@@ -1,4 +1,4 @@
-const dino = document.getElementById('dino');
+const dino = document.getElementById('dinozavr');
 const cactus = document.getElementById('cactus');
 
 document.addEventListener("keydown",function(event) {
